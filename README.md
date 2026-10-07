@@ -4,18 +4,13 @@ A Flask and Leaflet.js based application that generates a customized, interactiv
 
 ## Getting Started
 
-1. **Build the C libraries:**
-   ```bash
-   make build
-   ```
-2. **Start the server:**
-   ```bash
-   ./start.sh
-   ```
-   (Alternatively: `LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)/cubiomes python3 app.py`)
+You only need to run one command to install dependencies, build the libraries, and start the app:
 
-3. **Open in browser:**
-   Go to `http://localhost:5000`
+```bash
+make run
+```
+
+Then open your browser to `http://localhost:5000`.
 
 ## Features
 - Generates biomes directly matching Minecraft's internal generation.
